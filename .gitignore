@@ -1,0 +1,33 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.eggs/
+build/
+dist/
+.pytest_cache/
+.venv/
+venv/
+.ipynb_checkpoints/
+
+# Generated build artifact for Artifact publishing (index.html is the Pages copy)
+site/_artifact_body.html
+
+# Local planning notes -- kept in the working tree, never published
+plans/
+
+# No physics lives in the hub, so none of these should ever appear here.
+# Listed as a guard: a weight bundle or handoff file in this repo is a mistake,
+# not a file to version.
+*.h5
+*.hdf5
+*.mat
+*.pt
+data/
+exports/
+
+# OS / editor
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
